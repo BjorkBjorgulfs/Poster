@@ -1,0 +1,7 @@
+body {
+    width: 48in;
+    height: 36in;
+    background-image: url(images/brickwall.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
