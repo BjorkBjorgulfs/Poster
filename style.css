@@ -1,7 +1,108 @@
 body {
-    width: 48in;
-    height: 36in;
+    margin: 0;
     background-image: url(images/brickwall.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.top {
+    color: white;
+}
+
+.section {
+    position: relative;
+    margin: 0;
+    border: 3px solid #73AD21;
+}
+
+.section img {
+    width: 30%;
+    border: 3px solid #73AD21;
+}
+
+.section h2 {
+    position: absolute;
+    color: white;
+    border: 3px solid #73AD21;
+    bottom: 0;
+    left: 190px;
+    /*finna út hvernig ég geri textann á ská*/   
+}
+
+.container-text {
+    display: inline-block;
+    text-align: center;
+    border: 3px solid #73AD21;
+}
+
+.content {
+    margin: 0;
+    font-size: 48pt;
+}
+
+.content li {
+    color: white;
+    font-size: inherit;
+    padding-bottom: 0;
+    border: 3px solid #73AD21;
+}
+.content .orange {
+    color: #f48c04;
+    font-size: inherit;
+}
+
+footer {
+    margin: auto;
+    background: none;
+    display: inline;
+    width: 100%;   
+    text-align: left;
+}
+
+
+footer ul li {
+    float: left;
+    font-size: 14pt;
+    padding-top: 1em;
+    border: 3px solid #73AD21;
+    list-style-type: none;
+    /*vantar að fá hlutina nær hvor öðrum*/
+}
+
+/*positioning the paragraphs in the list*/
+.footer-list p {
+    color: white;
+    vertical-align: middle;
+}
+
+/*positioning the anchor in the list since the list contains both paragraph and anchor*/
+.footer-list a {
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+
+.instagram {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.facebook {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.instagram:hover {
+    width: 11%;
+}
+
+.facebook:hover {
+    width: 11%;
 }
