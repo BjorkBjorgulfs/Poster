@@ -33,7 +33,21 @@ width: 48in;
 }
   
   
-  
+  það sem var fyrir -------------
+  footer ul li {
+    float: left;
+    font-size: 14pt;
+    padding-top: 1em;
+    display: inline;
+    line-height: 50px;
+    width: 110px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 10px;
+    padding-left: 32em;
+}
   
   
   
