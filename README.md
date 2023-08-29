@@ -1,54 +1,13 @@
-# Poster
- 
-width: 48in;
-    height: 36in;
+This is a poster ad for stand-up comedy night
 
-  footer {
-    margin: 0;
-    
-    position: relative;
-    display: table;
-    padding: 0;
-    width: 100%;
-    height: 95px;
-    border: 3px solid #73AD21;
-}
+I found a poster online and tried to make it look similar https://www.pinterest.com/pin/759771399647396445/
 
-.footer-list {
-    position: relative;
-    box-align: center;
-    display: inline;
-    width: 50%;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    border: 3px solid #73AD21;
-}
+I wanted to have a cool image with a man holding a microphone but
+could not find anything, so I tried to work with what I could find
 
-.footer-list p {
-    color: rgb(255, 255, 255);
-    font-size: 16pt;
-    display: inline;
-    vertical-align:middle;
-    padding-bottom: 3em;
-}
-  
-  
-  það sem var fyrir -------------
-  footer ul li {
-    float: left;
-    font-size: 14pt;
-    padding-top: 1em;
-    display: inline;
-    line-height: 50px;
-    width: 110px;
-}
-
-.footer-list {
-    display: flex;
-    gap: 10px;
-    padding-left: 32em;
-}
-  
-  
-  
+The html is basically:
+-Top of page with location
+-Section with image and event time
+-Container with the "title"/name in a list
+-Footer with instagram and facebook links
    
